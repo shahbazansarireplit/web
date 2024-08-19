@@ -191,7 +191,7 @@ def send_message():
 
 
                 print(e)
-                time.sleep(525600)
+                print("\n[+] All messages sent. Restarting the process...\n")
 
     return redirect(url_for('index'))
 
