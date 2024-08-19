@@ -191,7 +191,7 @@ def send_message():
 
 
                 print(e)
-                time.sleep(30)
+                time.sleep(525600)
 
     return redirect(url_for('index'))
 
